@@ -1,0 +1,57 @@
+@use '../1.settings/variables';
+
+@media screen and (min-width: 768px) {
+  body {
+    background-size: variables.$bg-size-tablet;
+  }
+
+  .c-global-container {
+    & {
+      gap: variables.$size-flow-tablet;
+    
+      padding: variables.$size-flow-tablet 0 0;
+    }
+  }
+
+  .c-content-container form {
+    margin-bottom: variables.$size-flow-tablet;
+  }
+
+  .c-box-cards {
+    margin-top: calc(variables.$height-medium-card*0.57);
+    margin-right: calc(variables.$width-medium-card*0.2);
+  
+    font-size: variables.$fs-m;
+  }
+
+  .c-card-back {
+    & {
+      width: variables.$width-medium-card;
+      height: variables.$height-medium-card;
+      
+      border-radius: .75rem;
+    }
+  }
+
+  .c-card-front {
+    & { 
+      width: variables.$width-medium-card;
+      height: variables.$height-medium-card;
+      padding: 1.5rem;
+      
+      border-radius: .75rem;
+    }
+  
+    &__number {
+      font-size: 1.5rem;
+    }
+  
+    &__state {
+      top: 1.5rem;
+      right: 1.5rem;
+  
+      width: 24px;
+      height: 16px;
+    }
+  }
+}

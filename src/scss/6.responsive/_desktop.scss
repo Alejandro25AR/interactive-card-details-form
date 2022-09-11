@@ -1,0 +1,75 @@
+@use '../1.settings/variables';
+
+@media screen and (min-width: 1024px) {
+  body {
+    background-size: variables.$bg-size-desktop;
+  }
+
+  .c-global-container {
+    & {
+      flex-direction: row-reverse;
+      justify-content: center;
+      gap: 15vw;
+    
+      padding: 0 0;
+    }
+  }
+
+  .c-content-container {
+    min-height: 0;
+
+    & form {
+      margin-bottom: 0;
+    }
+  }
+
+  .c-box-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;  
+    
+    margin: 0;
+  
+    font-size: variables.$fs-l;
+  }
+
+  .c-card-back {
+    & {
+      position: relative;
+      left: 0;
+      top: 0;
+
+      width: variables.$width-large-card;
+      height: variables.$height-large-card;
+      
+      border-radius: 1rem;
+    }
+  }
+
+  .c-card-front {
+    & { 
+      width: variables.$width-large-card;
+      height: variables.$height-large-card;
+      
+      padding: variables.$padding-card-desktop;
+      
+      border-radius: 1rem;
+    }
+  
+    &__number {
+      font-size: variables.$fs-xl;
+    }
+  
+    &__state {
+      top: variables.$padding-card-desktop;
+      right: variables.$padding-card-desktop;
+  
+      width: 32px;
+      height: 20px;
+    }
+  }
+
+  .translate-right {
+    transform: translateX(5rem);
+  }
+}

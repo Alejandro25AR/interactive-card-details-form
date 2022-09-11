@@ -1,0 +1,24 @@
+@use '../1.settings/variables';
+
+.c-card-back {
+  & {
+    position: absolute;
+    z-index: 2;
+    top: -57%;
+    left: 20%;
+
+    width: variables.$width-small-card;
+    height: variables.$height-small-card;
+    
+    border-radius: .5rem;
+    box-shadow: 0 0 1rem black;
+    background-image: url("../../images/cardBack.svg");
+    transition: transform 1s ease;
+    background-size: contain;
+  }
+  &__cvc {
+    position: absolute;
+    top: 45%;
+    right: 12%;
+  }
+}

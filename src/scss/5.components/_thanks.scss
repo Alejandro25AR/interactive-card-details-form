@@ -1,0 +1,16 @@
+@use '../1.settings/variables';
+.c-thanks {
+  & {
+    text-align: center;
+  }
+
+  &__title {
+    font-size: variables.$fs-xl;
+    margin-bottom: 1rem;
+  }
+
+  &__message {
+    color: variables.$secondary-color-gray;
+    margin-bottom: 2rem;
+  }
+}

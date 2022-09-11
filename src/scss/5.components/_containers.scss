@@ -1,0 +1,24 @@
+@use '../1.settings/variables';
+
+.c-global-container {
+  & {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    gap: variables.$size-flow-movil;
+    
+    height: 100vh;
+    padding: variables.$size-flow-movil 1rem 0;
+  }
+}
+
+.c-content-container {
+  width: 100%;
+  max-width: 24rem;
+  min-height: 19rem;
+  
+  & form {
+    margin-bottom: variables.$size-flow-movil;
+  }
+}

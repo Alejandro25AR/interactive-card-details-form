@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'SpaceGrotesk';
+    src: url('../../fonts/SpaceGrotesk/SpaceGrotesk-Medium.ttf');
+    font-style: normal;
+    font-weight: 500;
+}
+
+$font-family: 'SpaceGrotesk';
+
+$fs-s:  calc(12 / 16) + rem;
+$fs-m:  calc(16 / 16) + rem;
+$fs-l:  calc(18 / 16) + rem;
+$fs-xl: calc(32 / 16) + rem;
+
+$fs-title: calc(28 - 16) + rem;

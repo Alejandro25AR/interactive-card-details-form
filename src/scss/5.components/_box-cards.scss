@@ -1,0 +1,10 @@
+@use '../1.settings/variables';
+
+.c-box-cards {
+  position: relative;
+
+  margin-top: calc(variables.$height-small-card*0.57);
+  margin-right: calc(variables.$width-small-card*0.2);
+
+  font-size: variables.$fs-s;
+}
