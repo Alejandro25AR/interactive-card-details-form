@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/interactive-card-details-form/static/css/main.4fbfb764.css",
-    "main.js": "/interactive-card-details-form/static/js/main.b3abae34.js",
+    "main.js": "/interactive-card-details-form/static/js/main.c0fb225a.js",
     "static/js/787.623b932a.chunk.js": "/interactive-card-details-form/static/js/787.623b932a.chunk.js",
     "static/media/SpaceGrotesk-Medium.ttf": "/interactive-card-details-form/static/media/SpaceGrotesk-Medium.dff8d806ce24db6ac483.ttf",
     "static/media/loading.svg": "/interactive-card-details-form/static/media/loading.b76649926fb639de0549a74d47eb8b95.svg",
@@ -10,11 +10,11 @@
     "index.html": "/interactive-card-details-form/index.html",
     "static/media/complete.svg": "/interactive-card-details-form/static/media/complete.8fd757c0c5c44b1d597ca411400e046d.svg",
     "main.4fbfb764.css.map": "/interactive-card-details-form/static/css/main.4fbfb764.css.map",
-    "main.b3abae34.js.map": "/interactive-card-details-form/static/js/main.b3abae34.js.map",
+    "main.c0fb225a.js.map": "/interactive-card-details-form/static/js/main.c0fb225a.js.map",
     "787.623b932a.chunk.js.map": "/interactive-card-details-form/static/js/787.623b932a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4fbfb764.css",
-    "static/js/main.b3abae34.js"
+    "static/js/main.c0fb225a.js"
   ]
 }
